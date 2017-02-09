@@ -1,5 +1,7 @@
 # docker alpine mod_jk
-I have built mod_jk in alpine 3.4(base on tomcat-connectors-1.2.42-src), so you can download it directly.The following content is my roadmap to solve this problem.
+I have built mod_jk in alpine 3.4(base on tomcat-connectors-1.2.42-src), so you can download it directly(https://github.com/firesurfing/alpine-mod_jk/raw/master/mod_jk/mod_jk.so).
+
+The following content is my roadmap to solve this problem.
 
 apache offical alpine image（https://github.com/docker-library/httpd/blob/a5ab6fb434c13a3578a2e7e6ce2cf30d66c625bc/2.2/alpine/Dockerfile） provides common way to build apache2 in alpine, however when I tried to add mod_jk.so, I encountered error about glibc as below:
 
